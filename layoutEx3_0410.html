@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>layoutEx3</title>
+  <style>
+    body{
+      margin: 0;
+      width: 940px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    header h1{
+      padding: 30px 0;
+    }
+
+    menu{
+      padding: 0;
+      list-style: none;
+      background-color: #D14D72;
+      height: 60px; line-height: 60px;
+    }
+
+    menu li {
+      display: inline-block;
+      width: 150px;
+    }
+
+    menu li a{
+      color: #fff;
+    }
+
+    main{
+      background-color: #FFABAB;
+      height: 100px; line-height: 100px;
+
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    section {
+      background-color: #FCC8D1;
+      color: #D14D72;
+      float: left;
+      overflow: hidden;
+      width: 300px; height: 67px;
+      line-height: 67px;
+      margin-bottom: 30px;
+    }
+
+    .box1{
+      margin-right: 20px;
+    }
+
+    .box2{
+      margin-right: 20px;
+    }
+
+    footer{
+      background-color: #D14D72;
+      font-weight: bold;
+      height: 60px; line-height: 60px;
+      clear: both;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="box">
+    <header>
+      <h1>로고</h1>
+    </header>
+
+    <menu class="gnb">
+      <ul>
+        <li><a href="#">홈</a></li>
+        <li><a href="#">상품</a></li>
+        <li><a href="#">소개</a></li>
+        <li><a href="#">서비스</a></li>
+        <li><a href="#">연락처</a></li>
+      </ul>
+    </menu>
+    
+    <main>
+      <p>컨텐츠</p>
+    </main>
+
+    <section class="box1">
+      1번째 열
+    </section>
+
+    <section class="box2">
+      2번째 열
+    </section>
+
+    <section class="box3">
+      3번째 열
+    </section>
+        
+    <footer class="clearfix">
+      <p>㉿copyright 2022</p>
+    </footer>
+  </div>
+</body>
+</html>
