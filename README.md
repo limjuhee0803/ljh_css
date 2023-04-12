@@ -1,4 +1,4 @@
 # ljh_css
 
-##0411 layout 과제
-latout + float 응용하기
+## 0411 layout 과제
+layout + float 응용하기
