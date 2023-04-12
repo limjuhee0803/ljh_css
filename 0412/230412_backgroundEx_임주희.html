@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>backgroundEx</title>
+    <style>
+        body{
+            text-align: center;
+            margin: 0;
+        }
+        .box{
+           width: 700px;
+           margin: 0 auto;
+           border: solid #000 3px;
+           border-radius: 30px;
+           padding: 60px;
+        }
+
+        section input{
+            font-size: 30px;
+            width: 450px; height: 70px;
+            border-radius: 35px;
+            line-height: 70px;
+            background-color: #f89494;
+            margin: 15px;
+            border: solid #000 2px;;
+        }
+
+        .txt1 input {
+            background-image: url(./images/user.png);
+            background-repeat: no-repeat;
+            background-size: 50px; 
+            background-position: 15px 50%;
+        }
+
+        .txt2 input {
+            background-image: url(./images/email.png);
+            background-repeat: no-repeat;
+            background-size: 50px;
+            background-position: 15px 50%;
+        }
+
+        .txt3 input {
+            background-image: url(./images/cell-phone.png);
+            background-repeat: no-repeat;
+            background-size: 50px;
+            background-position: 15px 50%;
+        }
+
+        input:hover{
+            background-color: #e06565;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <section class="txt1">
+            <input type="text" name="username" id="username"
+            placeholder="          이름을 입력하세요">
+        </section>
+
+        <section class="txt2">
+            <label></label><input type="text" name="useremail" id="useremail"
+            placeholder="          이메일을 입력하세요">
+        </section>
+
+        <section class="txt3">
+            <label></lable><input type="text" name="usernumber" id="usernamenumber"
+            placeholder="          연락처를 입력하세요">
+        </section>
+       
+    </div>
+</body>
+</html>
