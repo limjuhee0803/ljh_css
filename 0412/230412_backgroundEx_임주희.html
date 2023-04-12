@@ -25,6 +25,7 @@
             background-color: #f89494;
             margin: 15px;
             border: solid #000 2px;;
+            padding: 20px 0 20px 73px;
         }
 
         .txt1 input {
@@ -51,6 +52,9 @@
         input:focus{
             background-color: #e06565;
         }
+        input:focus{
+            background-color: skyblue;
+        }
 
     </style>
 </head>
@@ -58,10 +62,19 @@
     <div class="box">
         <section class="txt1">
             <input type="text" name="username" id="username"
-            placeholder="          이름을 입력하세요">
+            placeholder="이름을 입력하세요">
         </section>
 
         <section class="txt2">
+
+        <input type="text" name="useremail" id="useremail"
+            placeholder="이메일을 입력하세요">
+        </section>
+
+        <section class="txt3">
+            <label></lable><input type="text" name="usernumber" id="usernamenumber"
+            placeholder="연락처를 입력하세요">
+
             <input type="text" name="useremail" id="useremail"
             placeholder="          이메일을 입력하세요">
         </section>
@@ -69,8 +82,12 @@
         <section class="txt3">
             <input type="text" name="usernumber" id="usernamenumber"
             placeholder="          연락처를 입력하세요">
+
         </section>
        
     </div>
 </body>
 </html>
+
+
+<!-- 김평우 : placeholder 부분에 공백으로 채운부분을 지우고 input에 padding값을 왼쪽으로 줘서 아이콘옆에 포커스되게하고 포커스시 배경색 변경되게 했습니다! -->
