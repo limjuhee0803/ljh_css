@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>transEX4</title>
+    <style>
+        .check main {
+            background-color: #ffaeae;
+            width: 50vw;
+            padding: 2rem;
+            transition: 1s;
+            overflow: hidden;
+        }
+
+        .check aside {
+            background-color: #707070;
+            width: 80vw;
+            height: 15vw;
+
+            transition: 1s;
+        }
+
+        /* input[type="checkbox"]:checked ~ .check main{
+            opacity: 0;
+        }
+
+        input[type="checkbox"]:checked ~ .check aside {
+            transform: translateY(-220px);
+        } */
+
+        h1:hover ~ .check main{
+            opacity: 0;
+        }
+
+        h1:hover ~ .check aside {
+            transform: translateY(-200px);
+        }
+
+
+        /* 임주희 : h1에 호버상태로 이벤트를 넣었을 때는 잘 움직이는데 체크박스에 체크 시에는 작동이 안됩니다.. */
+
+    </style>
+</head>
+<body>
+    <h1>trans 연습 4</h1>
+    <form>
+        <input type="checkbox" name="check" id="check"> 
+        <label for="check">체크 박스가 체크되면 박스가 위로 올라와 사라집니다.</label>
+    </form>
+
+    <div class="check">
+        <main>
+        <h2>: cheked</h2>
+        <p>가장 같이 이상의 있는 보라. 불러 것은 있는 있는 간에 이것은 긴지라 쓸쓸하랴? 
+            되려니와, 피고, 그들에게 낙원을 스며들어 그리하였는가? 무엇을 끝에 더운지라 군영과 뜨거운지라,
+            피다. 바로 용기가 얼음 많이 트고, 보배를 용감하고 이것이다.</p>
+        </main>
+
+        <aside>
+            block
+        </aside>
+    </div>
+</body>
+</html>
