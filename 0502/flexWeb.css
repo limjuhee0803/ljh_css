@@ -67,14 +67,7 @@ img {
     padding: 50px;
 }
 
-footer {
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer input {
+.footer input {
     border: #969696 solid 1px;
     width: 500px; height: 40px; line-height: 40px;
     border-radius: 30px;
@@ -82,8 +75,17 @@ footer input {
     padding-left: 30px;
 }
 
-footer article {
+.footer {
+    width: 100vw; height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer article {
     float: right;
+    margin-left: 50px;
 }
 
 .icon svg {
