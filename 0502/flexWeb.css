@@ -1,0 +1,119 @@
+@charset "utf-8"; 
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {color: #969696;font-size: 0.8rem;}
+
+p strong {color: #3a3a3a;}
+
+h2 { color: #292929;font-size: 2.5rem; font-weight: 400;}
+
+article {
+    border: 1px solid #969696; text-align: center; color: #969696;
+    width: 150px; height: 40px; line-height: 40px;
+    border-radius: 30px;
+    margin-top: 80px;
+}
+.header {
+    width: 100vw; height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+main {
+    display: flex;
+}
+
+main .box1 {
+    background-color: #e3e7eb;
+    padding: 50px;
+}
+
+main .box1 p {
+    margin-top: 50px;
+}
+
+img {
+    width: 70%;
+    object-fit: cover;
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.txt .txt1, .txt2 {
+    width: 400px;
+    padding: 50px;
+}
+
+
+.main2 {
+    display: flex;
+    background-color: #e3e7eb;
+}
+
+.main2 .box2 {
+    padding: 50px;
+}
+
+footer {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section input {
+    border: #969696 solid 1px;
+    width: 500px; height: 40px; line-height: 40px;
+    border-radius: 30px;
+    margin-top: 80px;
+    padding-left: 30px;
+}
+
+footer section article {
+    float: right;
+}
+
+.icon svg {
+    width: 20px; height: 20px;
+    margin: 0px 10px;
+    fill: #969696;
+    padding: 5px;
+
+    border: 2px solid #969696;
+    border-radius: 50%;
+}
+
+.icon {
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+
+/**** mouse event ****/
+
+article:hover {
+    color: #292929;
+    border: 1px solid 292929; text-align: center;
+    width: 155px; height: 45px; line-height: 45px;
+
+    transition: 0.3s;
+}
+
+h2:hover {
+    color: #2e3e97;
+}
+
+.icon svg:hover {
+    fill: #2e3e97;
+}
