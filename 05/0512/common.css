@@ -15,13 +15,14 @@ body {
 h2 {
   font-family: var(--main-font-en);
   color: var(--point-color);
-  font-size: 3.4375rem;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 1.0625rem;
+  font-size: 1rem;
   line-height: 1.5;
+  margin-top: 1rem;
 }
 
 .up {
@@ -39,7 +40,7 @@ h3 {
 }
 
 .more-btn {
-  border: #fff solid 2px;
+  border: #fff solid 1px;
   width: 160px;
   height: 45px;
   line-height: 40px;
@@ -51,6 +52,7 @@ h3 {
 .more-btn:hover {
   border-radius: 30px;
   color: var(--point-color);
+  border: var(--point-color) solid 1px;
 }
 .arrow {
   width: 35px;
