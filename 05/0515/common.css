@@ -38,8 +38,13 @@ h3 {
 .up svg {
   fill: #fff;
   padding: 5px;
+  transition: 0.3s;
 }
 
+.up:hover svg {
+  background-color: var(--point-color);
+  fill: var(--box-color);
+}
 .more-btn {
   border: #fff solid 1px;
   width: 160px;
@@ -59,4 +64,18 @@ h3 {
   width: 35px;
   height: 35px;
   fill: #fff;
+}
+
+body::-webkit-scrollbar {
+  width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #1f1f1f;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--point-color);
+  border-radius: 4px;
+  box-shadow: 0px 5px 3px #1b1b1b, 0px 5px 8px #0c0c0c;
 }
