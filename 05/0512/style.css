@@ -68,6 +68,7 @@ header .global-nav li:hover {
   position: relative;
   top: 5em;
   overflow: hidden;
+  z-index: 999;
 }
 .main-banner .main-txt {
   height: 69rem;
