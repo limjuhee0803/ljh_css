@@ -65,6 +65,8 @@ header .global-nav li:hover {
   background: url(./images/main-banner3.png) no-repeat 0 50% / cover;
   height: 69rem;
   width: 100%;
+  min-width: 1400px;
+
   position: relative;
   top: 5em;
   overflow: hidden;
@@ -76,6 +78,7 @@ header .global-nav li:hover {
   flex-direction: column;
   justify-content: center;
   margin-left: 9.375rem;
+  position: relative;
 }
 .main-banner .main-txt h1 {
   font-size: 3.125rem;
