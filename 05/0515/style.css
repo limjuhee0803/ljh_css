@@ -118,6 +118,7 @@ header .global-nav li:hover {
 .main-arrow svg:hover {
   background-color: var(--point-color);
 }
+
 /* contents */
 
 /***** promotion *****/
@@ -132,7 +133,6 @@ header .global-nav li:hover {
   margin-top: 15rem;
   position: relative;
 }
-
 .promotion .promotion-img img {
   width: 40vw;
   min-width: 30vw;
@@ -141,10 +141,11 @@ header .global-nav li:hover {
   display: flex;
   flex-direction: column;
   margin-left: 10rem;
-  min-width: 50vw;
+  min-width: 45vw;
 }
+
 .promotion .promotion-txt h3 {
-  width: 70%;
+  width: 68%;
 }
 .promotion .promotion-btn {
   margin-top: 2rem;
@@ -210,6 +211,7 @@ header .global-nav li:hover {
   width: 40%;
   object-fit: contain;
 }
+
 /***** membership *****/
 
 .membership {
@@ -247,6 +249,7 @@ header .global-nav li:hover {
 .membership img:hover {
   transform: translateX(18vw);
 }
+
 /***** best-model *****/
 .best-model {
   text-align: center;
@@ -345,6 +348,7 @@ header .global-nav li:hover {
   font-weight: 700;
   font-size: 2rem;
 }
+
 /***** video *****/
 iframe {
   margin-top: 10rem;
@@ -417,7 +421,7 @@ iframe {
   margin-top: 1rem;
 }
 .inquiry .inquiry-form {
-  margin: 0 15%;
+  margin: 0 10%;
 }
 
 .inquiry .inquiry-form form section {
