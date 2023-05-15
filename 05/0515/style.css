@@ -132,6 +132,7 @@ header .global-nav li:hover {
   margin-left: 6rem;
   margin-top: 15rem;
   position: relative;
+  transition: 0.8s;
 }
 .promotion .promotion-img img {
   width: 40vw;
@@ -173,6 +174,10 @@ header .global-nav li:hover {
   margin: auto;
   right: 3rem;
 }
+
+.promotion .promotion-img:hover {
+  transform: scale(1.05);
+}
 /***** branding *****/
 .branding {
   width: 100%;
@@ -210,6 +215,11 @@ header .global-nav li:hover {
 .branding img {
   width: 40%;
   object-fit: contain;
+  transition: 0.5s;
+}
+
+.branding img:hover {
+  transform: scale(1.03);
 }
 
 /***** membership *****/
@@ -220,26 +230,26 @@ header .global-nav li:hover {
 }
 
 .membership img {
-  width: 80%;
+  width: 90%;
   min-width: 50vw;
   object-fit: contain;
   position: relative;
-  left: -15vw;
-  top: 10vw;
-  transition: 0.8s;
+  left: -12vw;
+  top: 5vw;
+  transition: 1.5s;
 }
 
 .membership-txt {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 35vw;
+  width: 40vw;
 
-  margin-right: 10vw;
+  margin-right: 10%;
 }
 
 .membership-txt h3 {
-  width: 90%;
+  width: 95%;
 }
 
 .membership-txt .more-btn {
@@ -247,7 +257,7 @@ header .global-nav li:hover {
 }
 
 .membership img:hover {
-  transform: translateX(18vw);
+  transform: translateX(15vw);
 }
 
 /***** best-model *****/
@@ -344,6 +354,7 @@ header .global-nav li:hover {
 .best-model .best-model-txt h4 {
   color: var(--point-color);
   font-size: 1.125rem;
+  text-transform: uppercase;
 }
 
 .best-model .best-model-txt p {
@@ -390,6 +401,11 @@ iframe {
   height: 20vw;
   transition: 0.3s;
   min-width: 15vw;
+  transition: 0.5s;
+}
+
+.service img:hover {
+  transform: scale(1.03);
 }
 
 .service .service-txt li svg {
