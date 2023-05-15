@@ -130,9 +130,12 @@ header .global-nav li:hover {
   margin-left: 6rem;
   margin-top: 15rem;
   position: relative;
-  min-width: 600px;
 }
 
+.promotion .promotion-img img {
+  width: 40vw;
+  min-width: 30vw;
+}
 .promotion .promotion-txt {
   display: flex;
   flex-direction: column;
@@ -159,14 +162,14 @@ header .global-nav li:hover {
   top: 0;
   bottom: 0;
   margin: auto;
-  left:4rem;
+  left: 4rem;
 }
 .promotion .promotion-arrow svg:nth-child(2) {
   position: absolute;
   top: 0;
   bottom: 0;
   margin: auto;
-  right:3rem;
+  right: 3rem;
 }
 /***** branding *****/
 .branding {
@@ -227,7 +230,7 @@ header .global-nav li:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 30vw;
+  width: 35vw;
 
   margin-right: 10vw;
 }
@@ -241,7 +244,7 @@ header .global-nav li:hover {
 }
 
 .membership img:hover {
-  transform: translateX(15vw);
+  transform: translateX(18vw);
 }
 /***** best-model *****/
 .best-model {
@@ -368,6 +371,8 @@ iframe {
 .service .service-txt h5 {
   margin-top: 3rem;
   font-size: 1.25rem;
+  color: var(--point-color);
+  font-weight: bold;
 }
 
 .service .service-txt p {
@@ -442,10 +447,11 @@ iframe {
 }
 
 /*****location *****/
-
+#map {
+  margin-top: 10%;
+}
 /***** footer *****/
 footer {
-  margin-top: 10%;
   background-color: #262626;
   display: flex;
   height: 150px;
